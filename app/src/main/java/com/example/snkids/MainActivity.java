@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton btn_myConstellation = (ImageButton) findViewById(R.id.btn_myConstellation);
+        ImageButton btn_myConstellation = findViewById(R.id.btn_myConstellation);
         btn_myConstellation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -22,6 +22,35 @@ public class MainActivity extends Activity {
                 startActivity(myConstellationIntent);
             }
         });
+
+        ImageButton btn_ConstellationStory = findViewById(R.id.btn_ConstellationStory);
+        btn_ConstellationStory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ConstellationStoryIntent = new Intent(getApplicationContext(), ConstellationStoryActivity.class);
+                startActivity(ConstellationStoryIntent);
+            }
+        });
+
+        ImageButton btn_Quiz = findViewById(R.id.btn_Quiz);
+        btn_Quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent QuizIntent = new Intent(getApplicationContext(), QuizActivity.class);
+                startActivity(QuizIntent);
+            }
+        });
+
+        ImageButton btn_GalaxiesStory = findViewById(R.id.btn_GalaxiesStory);
+        btn_GalaxiesStory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent GalaxiesStoryIntent = new Intent(getApplicationContext(), GalaxiesStoryActivity.class);
+                startActivity(GalaxiesStoryIntent);
+            }
+        });
+
+
 
     }
 }

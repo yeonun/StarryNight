@@ -21,6 +21,9 @@
 
         <activity android:name=".MainActivity"/>
         <activity android:name=".myConstellationActivity"/>
+        <activity android:name=".GalaxiesStoryActivity"/>
+        <activity android:name=".QuizActivity"/>
+        <activity android:name=".ConstellationStoryActivity"/>
 
     </application>
 </manifest>
