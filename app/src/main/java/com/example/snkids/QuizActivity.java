@@ -14,6 +14,15 @@ import android.widget.TextView;
 
 import java.util.HashMap;
 
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+import java.io.IOException;
+import org.json.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONException;
+
+
 public class QuizActivity extends Activity {
 
 
@@ -23,88 +32,7 @@ public class QuizActivity extends Activity {
     Button example3Button;
     Button example4Button;
     //
-    HashMap[] problems = {
-            new HashMap() {{
-                put("question", "1 + 2 = ?");
-                put("answer", "3");
-                put("example1", "1");
-                put("example2", "3");
-                put("example3", "2");
-                put("example4", "4");
-            }},
-            new HashMap() {{
-                put("question", "3 + 2 = ?");
-                put("answer", "5");
-                put("example1", "4");
-                put("example2", "6");
-                put("example3", "5");
-                put("example4", "2");
-            }},
-            new HashMap() {{
-                put("question", "3 + 3 = ?");
-                put("answer", "6");
-                put("example1", "6");
-                put("example2", "1");
-                put("example3", "5");
-                put("example4", "4");
-            }},
-            new HashMap() {{
-                put("question", "0 + 3 = ?");
-                put("answer", "3");
-                put("example1", "1");
-                put("example2", "2");
-                put("example3", "4");
-                put("example4", "3");
-            }},
-            new HashMap() {{
-                put("question", "4 + 2 = ?");
-                put("answer", "6");
-                put("example1", "6");
-                put("example2", "4");
-                put("example3", "2");
-                put("example4", "5");
-            }},
-            new HashMap() {{
-                put("question", "5 + 4 = ?");
-                put("answer", "9");
-                put("example1", "8");
-                put("example2", "6");
-                put("example3", "7");
-                put("example4", "9");
-            }},
-            new HashMap() {{
-                put("question", "4 + 4 = ?");
-                put("answer", "8");
-                put("example1", "7");
-                put("example2", "1");
-                put("example3", "8");
-                put("example4", "3");
-            }},
-            new HashMap() {{
-                put("question", "2 + 5 = ?");
-                put("answer", "7");
-                put("example1", "7");
-                put("example2", "1");
-                put("example3", "5");
-                put("example4", "4");
-            }},
-            new HashMap() {{
-                put("question", "1 + 4 = ?");
-                put("answer", "5");
-                put("example1", "4");
-                put("example2", "5");
-                put("example3", "0");
-                put("example4", "6");
-            }},
-            new HashMap() {{
-                put("question", "3 + 1 = ?");
-                put("answer", "4");
-                put("example1", "8");
-                put("example2", "3");
-                put("example3", "4");
-                put("example4", "0");
-            }}
-    };
+    HashMap[] problems = new HashMap[10];
     int problemNumber = 1;
     String question = "";
     String answer = "";
@@ -140,7 +68,44 @@ public class QuizActivity extends Activity {
         totalCorrectTextView = findViewById(R.id.totalCorrectTextView);
         correctImgView = findViewById(R.id.correctImgView);
         IncorrectImgView = findViewById(R.id.IncorrectImgView);
+        try {
+            InputStream is = getAssets().open("level/001_001.json");
+            StringBuilder sb = new StringBuilder();
+            BufferedReader br = new BufferedReader(new InputStreamReader(is),1024);
+            String line = null;
+            while ((line = br.readLine()) != null) {
+                sb.append(line+"\n");
+            }
+            br.close();
+            String str = sb.toString();
 
+            JSONObject jo = new JSONObject(str);
+            JSONArray problemsJA = jo.getJSONArray("problems");
+            for (int i = 0; i < problemsJA.length(); i++) {
+                JSONObject problemJO = problemsJA.getJSONObject(i);
+                //Log.d("app", problemJO.getString("question"));
+                //Log.d("app", problemJO.getString("answer"));
+                //Log.d("app", problemJO.getString("example1"));
+                //Log.d("app", problemJO.getString("example2"));
+                //Log.d("app", problemJO.getString("example3"));
+                //Log.d("app", problemJO.getString("example4"));
+
+                HashMap problem = new HashMap();
+                problem.put("question", problemJO.getString("question"));
+                problem.put("answer", problemJO.getString("answer"));
+                problem.put("example1", problemJO.getString("example1"));
+                problem.put("example2", problemJO.getString("example2"));
+                problem.put("example3", problemJO.getString("example3"));
+                problem.put("example4", problemJO.getString("example4"));
+                problems[i] = problem;
+            }
+        }
+        catch (IOException ex) {
+            Log.d("app", ex.toString());
+        }
+        catch (JSONException ex) {
+            Log.d("app", ex.toString());
+        }
         showProblem();
 
         totalCorrectTextView.setText("점수");
