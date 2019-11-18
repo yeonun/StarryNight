@@ -1,0 +1,84 @@
+{
+  "problems": [
+    {
+      "question": "지구의 나이는 ?",
+      "answer": "45억 살",
+      "example1": "2019 살",
+      "example2": "45억 살",
+      "example3": "5조5억 살",
+      "example4": "뱃 살"
+    },
+    {
+      "question": "3 + 2 = ?",
+      "answer": "5",
+      "example1": "4",
+      "example2": "6",
+      "example3": "5",
+      "example4": "2"
+    },
+    {
+      "question": "3 + 3 = ?",
+      "answer": "6",
+      "example1": "6",
+      "example2": "1",
+      "example3": "5",
+      "example4": "4"
+    },
+    {
+      "question": "0 + 3 = ?",
+      "answer": "3",
+      "example1": "1",
+      "example2": "2",
+      "example3": "4",
+      "example4": "3"
+    },
+    {
+      "question": "4 + 2 = ?",
+      "answer": "6",
+      "example1": "6",
+      "example2": "4",
+      "example3": "2",
+      "example4": "5"
+    },
+    {
+      "question": "5 + 4 = ?",
+      "answer": "9",
+      "example1": "8",
+      "example2": "6",
+      "example3": "7",
+      "example4": "9"
+    },
+    {
+      "question": "4 + 4 = ?",
+      "answer": "8",
+      "example1": "7",
+      "example2": "1",
+      "example3": "8",
+      "example4": "3"
+    },
+    {
+      "question": "2 + 5 = ?",
+      "answer": "7",
+      "example1": "7",
+      "example2": "1",
+      "example3": "5",
+      "example4": "4"
+    },
+    {
+      "question": "1 + 4 = ?",
+      "answer": "5",
+      "example1": "4",
+      "example2": "5",
+      "example3": "0",
+      "example4": "6"
+    },
+    {
+      "question": "3 + 1 = ?",
+      "answer": "4",
+      "example1": "8",
+      "example2": "3",
+      "example3": "4",
+      "example4": "0"
+    }
+  ]
+}

@@ -23,7 +23,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 
 
-public class QuizActivity extends Activity {
+public class GameActivity extends Activity {
 
 
     TextView questionTextView;
@@ -49,7 +49,7 @@ public class QuizActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz);
+        setContentView(R.layout.activity_game);
 
         ImageButton btn_back = findViewById(R.id.btn_back);
         btn_back.setOnClickListener(new View.OnClickListener() {
@@ -69,7 +69,7 @@ public class QuizActivity extends Activity {
         correctImgView = findViewById(R.id.correctImgView);
         IncorrectImgView = findViewById(R.id.IncorrectImgView);
         try {
-            InputStream is = getAssets().open("level/001_001.json");
+            InputStream is = getAssets().open("level/"+QuizmainActivity.jsonFile);
             StringBuilder sb = new StringBuilder();
             BufferedReader br = new BufferedReader(new InputStreamReader(is),1024);
             String line = null;
@@ -83,12 +83,6 @@ public class QuizActivity extends Activity {
             JSONArray problemsJA = jo.getJSONArray("problems");
             for (int i = 0; i < problemsJA.length(); i++) {
                 JSONObject problemJO = problemsJA.getJSONObject(i);
-                //Log.d("app", problemJO.getString("question"));
-                //Log.d("app", problemJO.getString("answer"));
-                //Log.d("app", problemJO.getString("example1"));
-                //Log.d("app", problemJO.getString("example2"));
-                //Log.d("app", problemJO.getString("example3"));
-                //Log.d("app", problemJO.getString("example4"));
 
                 HashMap problem = new HashMap();
                 problem.put("question", problemJO.getString("question"));
