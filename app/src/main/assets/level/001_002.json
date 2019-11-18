@@ -1,52 +1,52 @@
 {
   "problems": [
     {
-      "question": "1 + 2 = ?",
-      "answer": "3",
-      "example1": "1",
-      "example2": "3",
-      "example3": "2",
-      "example4": "4"
+      "question": "지구에서 가장 크게 보이는 행성은 무엇일까?",
+      "answer": "금성",
+      "example1": "금성",
+      "example2": "수성",
+      "example3": "천왕성",
+      "example4": "해왕성"
     },
     {
-      "question": "3 + 2 = ?",
-      "answer": "5",
-      "example1": "4",
-      "example2": "6",
-      "example3": "5",
-      "example4": "2"
+      "question": "2015년 명왕성이 행성에서 제외되었다. 현재 태양계의 행성은 모두 몇 개 일까?",
+      "answer": "8개",
+      "example1": "2개",
+      "example2": "8개",
+      "example3": "100억개",
+      "example4": "셀수 없음"
     },
     {
-      "question": "3 + 3 = ?",
-      "answer": "6",
-      "example1": "6",
-      "example2": "1",
-      "example3": "5",
-      "example4": "4"
+      "question": "다음 태양계 행성 중 고리가 없는 행성은?",
+      "answer": "금성",
+      "example1": "토성",
+      "example2": "금성",
+      "example3": "천왕성",
+      "example4": "목성"
     },
     {
-      "question": "0 + 3 = ?",
-      "answer": "3",
-      "example1": "1",
-      "example2": "2",
-      "example3": "4",
-      "example4": "3"
+      "question": "부루 마블(푸른 구슬)로 불리는 행성은 무엇일까?",
+      "answer": "지구",
+      "example1": "목성",
+      "example2": "화성",
+      "example3": "토성",
+      "example4": "지구"
     },
     {
-      "question": "4 + 2 = ?",
-      "answer": "6",
-      "example1": "6",
-      "example2": "4",
-      "example3": "2",
-      "example4": "5"
+      "question": "태양계 행성들 중 유일하게 옆으로 누워서 자전하는 행성은?",
+      "answer": "해왕성",
+      "example1": "화성",
+      "example2": "천왕성",
+      "example3": "해왕성",
+      "example4": "지구"
     },
     {
-      "question": "5 + 4 = ?",
-      "answer": "9",
-      "example1": "8",
-      "example2": "6",
-      "example3": "7",
-      "example4": "9"
+      "question": "태양계 행성 중에서 가장 작은 행성은 무엇일까?",
+      "answer": "수성",
+      "example1": "화성",
+      "example2": "지구",
+      "example3": "금성",
+      "example4": "수성"
     },
     {
       "question": "4 + 4 = ?",

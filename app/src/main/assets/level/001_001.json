@@ -1,12 +1,12 @@
 {
   "problems": [
     {
-      "question": "1 + 2 = ?",
-      "answer": "3",
-      "example1": "1",
-      "example2": "3",
-      "example3": "2",
-      "example4": "4"
+      "question": "헤라클레스가 히드라와 싸울 때 헤라여신이 (    )를 보내서 만들어진 별자리는 무엇일까요?",
+      "answer": "게자리",
+      "example1": "물병자리",
+      "example2": "게자리",
+      "example3": "천칭자리",
+      "example4": "물고기자리"
     },
     {
       "question": "3 + 2 = ?",

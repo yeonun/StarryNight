@@ -9,12 +9,12 @@
       "example4": "뱃 살"
     },
     {
-      "question": "3 + 2 = ?",
-      "answer": "5",
-      "example1": "4",
-      "example2": "6",
-      "example3": "5",
-      "example4": "2"
+      "question": "지구와 달 사이의 거리는 평균 몇 km 일까?",
+      "answer": "384,400km",
+      "example1": "200,000km",
+      "example2": "384,400km",
+      "example3": "462,300km",
+      "example4": "678,995km"
     },
     {
       "question": "3 + 3 = ?",
