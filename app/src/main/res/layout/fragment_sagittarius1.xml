@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textSize="40sp"
+        android:textSize="50sp"
         android:textColor="#FFFFFF"
         android:gravity="right|center_vertical"
         android:text="궁수자리"
@@ -27,7 +27,7 @@
         android:gravity="right|center_vertical"
         android:text="11월 23일 ~ 12월 21일"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:layout_margin="5dp"/>
 
     <ImageView
@@ -45,7 +45,7 @@
         android:layout_weight="4"
         android:background="#00000000"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="40sp"
         android:gravity="center"
         android:text="반인반마의 키론 이야기"/>
 </LinearLayout>
