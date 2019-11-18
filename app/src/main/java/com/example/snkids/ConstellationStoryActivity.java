@@ -1,6 +1,7 @@
 package com.example.snkids;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -26,6 +27,8 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "궁수자리", Toast.LENGTH_SHORT).show();
+                Intent Intent = new Intent(getApplicationContext(), sagittariusActivity.class);
+                startActivity(Intent);
             }
         });
 

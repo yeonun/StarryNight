@@ -25,6 +25,8 @@
         <activity android:name=".GameActivity" />
         <activity android:name=".ConstellationStoryActivity" />
         <activity android:name=".QuizmainActivity" />
+        <activity android:name=".sagittariusActivity"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>
