@@ -36,8 +36,6 @@ public class Sagittarius5Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_sagittarius5, container, false);
-        EditText tvLabel = (EditText) view.findViewById(R.id.editText);
-        tvLabel.setText(page + " -- " + title);
         return view;
     }
 }

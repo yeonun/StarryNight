@@ -1,6 +1,7 @@
 package com.example.snkids;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -66,8 +67,11 @@ public class myConstellationActivity extends Activity {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 전갈자리", Toast.LENGTH_SHORT).show();
                     } else if ((month == 11 && 23 <= date && date <= 30) || (month == 12 && date <= 21)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 궁수자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), sagittariusActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 12 && 22 <= date && date <= 31) || (month == 1 && date <= 19)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 염소자리", Toast.LENGTH_SHORT).show();
+
                     }
                     else {
                         Toast.makeText(myConstellationActivity.this, "다시 입력 해 주세요", Toast.LENGTH_SHORT).show();

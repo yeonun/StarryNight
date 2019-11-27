@@ -30,7 +30,7 @@ public class sagittariusActivity extends AppCompatActivity {
     }
 
     public static class MyPagerAdapter extends FragmentPagerAdapter {
-        private static int NUM_ITEMS = 5;
+        private static int NUM_ITEMS = 7;
 
         public MyPagerAdapter(FragmentManager fragmentManager) {
             super(fragmentManager);
@@ -56,6 +56,10 @@ public class sagittariusActivity extends AppCompatActivity {
                     return Sagittarius4Fragment.newInstance(3, "Page # 4");
                 case 4:
                     return Sagittarius5Fragment.newInstance(4, "Page # 5");
+                case 5:
+                    return Sagittarius6Fragment.newInstance(5, "Page # 6");
+                case 6:
+                    return Sagittarius7Fragment.newInstance(6, "Page # 7");
                 default:
                     return null;
             }

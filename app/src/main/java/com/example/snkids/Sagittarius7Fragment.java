@@ -4,17 +4,17 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 
 import androidx.fragment.app.Fragment;
 
-public class Sagittarius3Fragment extends Fragment {
+
+public class Sagittarius7Fragment extends Fragment {
     private String title;
     private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static Sagittarius3Fragment newInstance(int page, String title) {
-        Sagittarius3Fragment fragment = new Sagittarius3Fragment();
+    public static Sagittarius7Fragment newInstance(int page, String title) {
+        Sagittarius7Fragment fragment = new Sagittarius7Fragment();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
         args.putString("someTitle", title);
@@ -35,8 +35,7 @@ public class Sagittarius3Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_sagittarius3, container, false);
-
+        View view = inflater.inflate(R.layout.fragment_sagittarius7, container, false);
         return view;
     }
 }

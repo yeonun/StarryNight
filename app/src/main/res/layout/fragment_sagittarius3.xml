@@ -5,11 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="EditText" />
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="키론의 대단함을 알고 있는 많은 왕들은 자신의 아이들을 그의 제자로 삼아달라고 부탁했습니다.
+키론은 산속 동굴에 살면서 자신의 기술을 많은 아이들에게 가르치고 그들을 영웅으로 만들었어요.
+그리스 신화에 나오는 대부분의 영웅들은 키론의 제자였다고 합니다. 헤라클레스도 키론의 제자 중 하나였으니까요."/>
 
 </LinearLayout>
