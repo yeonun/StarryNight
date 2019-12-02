@@ -12,7 +12,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import me.relex.circleindicator.CircleIndicator;
 
-public class leoActivity extends AppCompatActivity {
+public class libraActivity extends AppCompatActivity {
     FragmentPagerAdapter adapterViewPager;
 
     private static MediaPlayer mp2;
@@ -30,21 +30,21 @@ public class leoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_leo);
+        setContentView(R.layout.activity_libra);
 
         ViewPager vpPager = (ViewPager) findViewById(R.id.vpPager);
         adapterViewPager = new MyPagerAdapter(getSupportFragmentManager());
         vpPager.setAdapter(adapterViewPager);
 
 
-        mp2 = MediaPlayer.create(this, R.raw.leo2);
-        mp3 = MediaPlayer.create(this, R.raw.leo3);
-        mp4 = MediaPlayer.create(this, R.raw.leo4);
-        mp5 = MediaPlayer.create(this, R.raw.leo5);
-        mp6 = MediaPlayer.create(this, R.raw.leo6);
-        mp7 = MediaPlayer.create(this, R.raw.leo7);
-        mp8 = MediaPlayer.create(this, R.raw.leo8);
-        mp9 = MediaPlayer.create(this, R.raw.leo9);
+        mp2 = MediaPlayer.create(this, R.raw.libra2);
+        mp3 = MediaPlayer.create(this, R.raw.libra3);
+        mp4 = MediaPlayer.create(this, R.raw.libra4);
+        mp5 = MediaPlayer.create(this, R.raw.libra5);
+        mp6 = MediaPlayer.create(this, R.raw.libra6);
+        mp7 = MediaPlayer.create(this, R.raw.libra7);
+        mp8 = MediaPlayer.create(this, R.raw.libra8);
+        mp9 = MediaPlayer.create(this, R.raw.libra9);
 
 
 
@@ -125,23 +125,23 @@ public class leoActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return Leo1Fragment.newInstance(0, "Page # 1");
+                    return Libra1Fragment.newInstance(0, "Page # 1");
                 case 1:
-                    return Leo2Fragment.newInstance(1, "Page # 2");
+                    return Libra2Fragment.newInstance(1, "Page # 2");
                 case 2:
-                    return Leo3Fragment.newInstance(2, "Page # 3");
+                    return Libra3Fragment.newInstance(2, "Page # 3");
                 case 3:
-                    return Leo4Fragment.newInstance(3, "Page # 4");
+                    return Libra4Fragment.newInstance(3, "Page # 4");
                 case 4:
-                    return Leo5Fragment.newInstance(4, "Page # 5");
+                    return Libra5Fragment.newInstance(4, "Page # 5");
                 case 5:
-                    return Leo6Fragment.newInstance(5, "Page # 6");
+                    return Libra6Fragment.newInstance(5, "Page # 6");
                 case 6:
-                    return Leo7Fragment.newInstance(6, "Page # 7");
+                    return Libra7Fragment.newInstance(6, "Page # 7");
                 case 7:
-                    return Leo8Fragment.newInstance(7, "Page # 8");
+                    return Libra8Fragment.newInstance(7, "Page # 8");
                 case 8:
-                    return Leo9Fragment.newInstance(8, "Page # 9");
+                    return Libra9Fragment.newInstance(8, "Page # 9");
 
                 default:
                     return null;

@@ -29,6 +29,8 @@
         <activity android:name=".capricornActivity"/>
         <activity android:name=".aquariusActivity"/>
         <activity android:name=".leoActivity"/>
+        <activity android:name=".libraActivity"/>
+        <activity android:name=".virgoActivity"/>
     </application>
 
 </manifest>

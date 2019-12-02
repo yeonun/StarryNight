@@ -85,8 +85,12 @@ public class myConstellationActivity extends Activity {
                         startActivity(Intent);
                     } else if ((month == 8 && 23 <= date && date <= 31) || (month == 9 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 처녀자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), virgoActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 9 && 23 <= date && date <= 30) || (month == 10 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 천칭자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), libraActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 10 && 23 <= date && date <= 31) || (month == 11 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 전갈자리", Toast.LENGTH_SHORT).show();
                     } else if ((month == 11 && 23 <= date && date <= 30) || (month == 12 && date <= 21)) {

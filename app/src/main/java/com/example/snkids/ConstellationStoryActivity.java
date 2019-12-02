@@ -124,6 +124,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "처녀자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), virgoActivity.class);
+                startActivity(Intent);
             }
         });
         ImageButton btn_libra = findViewById(R.id.btn_libra);
@@ -131,6 +134,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "천칭자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), libraActivity.class);
+                startActivity(Intent);
             }
         });
         ImageButton btn_scorpio = findViewById(R.id.btn_scorpio);
