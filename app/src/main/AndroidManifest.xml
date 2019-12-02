@@ -39,6 +39,7 @@
         <activity android:name=".scorpiusActivity"/>
         <activity android:name=".GalaxySunActivity"/>
         <activity android:name=".GalaxyMerActivity"/>
+        <activity android:name=".GalaxyVenActivity"/>
         <activity android:name=".GalaxyEarActivity"/>
         <activity android:name=".GalaxyMarActivity"/>
         <activity android:name=".GalaxyJupActivity"/>
