@@ -1,6 +1,7 @@
 package com.example.snkids;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -18,6 +19,8 @@ public class GalaxiesStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(GalaxiesStoryActivity.this, "난 안할 태양", Toast.LENGTH_SHORT).show();
+                Intent Intent = new Intent(getApplicationContext(), GalaxySunActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -26,6 +29,8 @@ public class GalaxiesStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(GalaxiesStoryActivity.this, "수성수성", Toast.LENGTH_SHORT).show();
+                Intent Intent = new Intent(getApplicationContext(), GalaxyMerActivity.class);
+                startActivity(Intent);
             }
         });
 

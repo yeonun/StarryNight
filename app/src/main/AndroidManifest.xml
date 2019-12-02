@@ -37,6 +37,14 @@
         <activity android:name=".cancerActivity"/>
         <activity android:name=".piecesActivity"/>
         <activity android:name=".scorpiusActivity"/>
+        <activity android:name=".GalaxySunActivity"/>
+        <activity android:name=".GalaxyMerActivity"/>
+        <activity android:name=".GalaxyEarActivity"/>
+        <activity android:name=".GalaxyMarActivity"/>
+        <activity android:name=".GalaxyJupActivity"/>
+        <activity android:name=".GalaxySatActivity"/>
+        <activity android:name=".GalaxyUraActivity"/>
+        <activity android:name=".GalaxyNepActivity"/>
     </application>
 
 </manifest>
