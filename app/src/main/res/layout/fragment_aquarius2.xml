@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="제우스와 부인 헤라 사이에서 태어난 청춘의 여신 헤베는 무척 아름답고 사랑스러운 여자였습니다.
+제우스는 항상 헤베를 가까이에 두고 잔심부름을 시켰으며 신들의 술 시중을 들게 했지요."/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="제우스는 헤르메스를 왕궁으로 보내 왕자는 잘 지내고 있다고 전해 주었습니다.
+'왕자가 보고 싶으면 밤 하늘을 보시오. 왕자는 그 곳에서 물병을 들고 있을 것이오.'
+정말로 밤 하늘에는 소년이 물병을 들고 커다란 물고기의 입에 물을 흘려보내는 모습의 별자리가 선명하게빛나고 있었습니다.
+이집트 사람들은 이 별자리의 물을 긷는 남자가 물을 퍼 담은 다음 다시 강에 쏟아 붓기 때문에 나일 강이 넘쳐 흐르는 것이라고 믿었습니다."/>
+
+
+</LinearLayout>

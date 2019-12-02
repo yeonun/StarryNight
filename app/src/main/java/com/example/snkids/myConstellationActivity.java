@@ -67,6 +67,8 @@ public class myConstellationActivity extends Activity {
 
                     if ((month == 1 && 20 <= date && date <= 31) || (month == 2 && date <= 18)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 물병자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), aquariusActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 2 && 19 <= date && date <= 29) || (month == 3 && date <= 20)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 물고기자리", Toast.LENGTH_SHORT).show();
                     } else if ((month == 3 && 21 <= date && date <= 31) || (month == 4 && date <= 19)) {

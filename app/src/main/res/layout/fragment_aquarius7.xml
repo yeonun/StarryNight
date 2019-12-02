@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그때 신들의 왕인 제우스가 나타나 자상하게 가니메데스의 손을 잡으며 말했습니다.
+'무서워할 것 없다 가니메데스, 너와 이 궁전에서 함께 지내고 싶어 데려온 거다.'
+그 후 가니메데스는 올림포스 궁전에 머물며 신들의 연회 때 술을 따르는 일을 맡게 되었습니다.
+한편, 왕자가 사라진 후 트로이의 왕과 왕비는 슬픔에 빠졌습니다."/>
+
+
+</LinearLayout>

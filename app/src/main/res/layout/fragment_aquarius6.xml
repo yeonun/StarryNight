@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="갑자기 하늘에 검은 구름이 몰려오더니 천둥과 번개가 쳤습니다.
+가니메데스는 미처 도망갈 사이도 없이 독수리의 날카로운 발톱에 채이고 말았지요.
+가니메데스는 독수리에게 붙들려 잠시 후 올림포스 궁전에 닿았습니다.
+신들의 궁전에 가니메데스를 내려놓은 독수리는 어느새 저 멀리 사라져 버렀습니다."/>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="제우스도 헤르메스의 의견에 동의하고 독수리 한마리를 인간들이 사는 세상으로 내려보냈어요.
+올림포스 산에서 날아온 그 독수리는 여러 지방을 두루 돌아다니다가 트로이의 이데 산에 내려 앉아 잠시 휴식을 취하고 있었습니다.
+그 때 양을 몰고 있는 아름다운 금발의 목동이 독수리의 눈에 띄었어요.
+그 목동은 트로이의 왕자인 가니메데스로 인간들 중에서 그렇게 아름다운 소년은 다시 찾아보기 힘들정도로 잘 생긴 소년이었습니다. "/>
+
+
+</LinearLayout>

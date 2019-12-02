@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="발목을 심하게 다친 헤베는 더 이상 신들의 술 시중을 들수 없게 되었어요.
+'앞으로 신들의 술 시중은 누가 든단 말인가.'
+이때 전령의 신인 헤르메스가 제우스 곁을 다가오더니 말을 꺼냈습니다.
+'인간들 가운데서 술 시중꾼을 알아보는 게 좋을 것 같습니다.'"/>
+
+
+</LinearLayout>

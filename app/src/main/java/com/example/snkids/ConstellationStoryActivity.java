@@ -61,6 +61,10 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "물병자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), aquariusActivity.class);
+                startActivity(Intent);
+
             }
         });
 

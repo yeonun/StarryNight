@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="어느 날, 제우스는 올리포스 궁전에서 성대한 연회를 베풀었습니다.
+상냥하고 예쁜 헤베는 즐거운 마음으로 신들의 술잔에 술을 따랐습니다
+그런데 술을 따르던 헤베는 그만 발을 헛디디는 바람에 미끄러져 넘어지고 말았습니다."/>
+
+</LinearLayout>
