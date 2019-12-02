@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="보통 인간의 힘으로는 해결할 수 없는 열 두 가지의 과제를 풀어야 한다는 것이었습니다.
+시간이 갈수록 싸움이 헤라클레스에게 유리해지자 헤라는 마음이 초조해졌습니다.
+어떻게든 헤라클레스를 쓰러뜨리고 싶었던 헤라는 바다뱀을 돕기 위해 몰래 괴물 게를 보냈습니다."/>
+
+
+</LinearLayout>

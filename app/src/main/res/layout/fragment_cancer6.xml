@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="바다뱀 역시 오랜 싸움 끝에 헤라클레스의 손에 죽고 말았지요.
+그 후 제우스는 아들의 영웅적 행동을 기념하기 위해 바다뱀과 함께 게를 별자리로 만들어 놓았습니다.
+겨울철이면 바다뱀의 머리위에서 아픈 다리를 이끌고 서 있는 별자리가 바로 불쌍한 게자리랍니다."/>
+
+
+</LinearLayout>

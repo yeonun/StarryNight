@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="헤라의 명령을 받은 게는 살금살금 헤라클레스에게 다가가 발가락을 꽉 물었습니다.
+'윽! 이게 뭐지?'
+순간 따끔한 통증에 놀란 헤라클레스는 뒷걸음질을 치다가 그만 게를 밟고 말았어요.
+그 바람에 게는 오른쪽 다리 하나를 잃고 죽고 말았습니다. "/>
+
+
+</LinearLayout>

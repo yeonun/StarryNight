@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그녀는 죽은 사람도 살려 낸다는 유명한 의사 아스클레피오스에게 부탁하여 오리온을 다시 살려 냈습니다.
+그러자 지하 세계의 왕인 하데스는 제우스에게 '죽은 사람을 아음대로 살리면 안 된다'고 호소했습니다.
+제우스 또한 하데스와 생각이 같았으므로 다시 한번 오리온과 아스클레피오스를 번갯불로 죽였습니다."/>
+
+
+</LinearLayout>

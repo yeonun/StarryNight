@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="세상에 무서운 것이 없었던 신들도 거대한 티폰 앞에선 속수무책이었습니다.
+ 그래서 몸을 숨기려고 제각각 가장 자신 있는 모습의 동물로 변신하며 도망치기 시작습니다.
+아름다움의 여신 아프로디테는 아들 에로스와 함께 잔치에 왔었습니다.
+에로스는 전쟁의 신 아레스 사이에서 낳은 아들이었어요."/>
+
+
+</LinearLayout>

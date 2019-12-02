@@ -73,6 +73,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "물고기자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), piecesActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -114,6 +117,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "게자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), cancerActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -153,6 +159,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "전갈자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), scorpiusActivity.class);
+                startActivity(Intent);
             }
         });
     }

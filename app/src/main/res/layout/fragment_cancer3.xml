@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그러나 아기 헤라클레스는 뱀을 무서워하지 않고 오히려 뱀을 목졸라 죽였습니다.
+헤라의 미움은 헤라클레스가 성장할수록 더 심해져서, 그가 청년이 되자 아예 어느 나라 왕의 노예로 팔아 버렸습니다.
+노예가 된 헤라클레스는 자유를 얻는 대가로 무거운 과제를 받게 되었어요."/>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="아프로디테는 에로스를 데리고 황급히 물 속으로 뛰어들면서 물고기로 변하는 주문을 외웠습니다.
+이 때 아들을 잃어 버릴까봐 아프로디테는 아들과 자신의 발을 끈으로 묶은 채 물고기로 변해 헤엄쳐 도망 갔습니다.
+나중에 제우스는 아프로디테의 자식 사랑에 감동하여 끈으로 묶인 두 마리 물고기 모양의 별자리를 하늘에 만들어 주었습니다."/>
+
+
+</LinearLayout>

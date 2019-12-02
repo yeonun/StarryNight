@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="티폰은 대단히 큰 괴물로 전체는 사람 모습을 하고 있었지만 머리가 백 개나 되었답니다.
+눈에서는 불이 이글거리며 타올랐고 입에서는 불을 내뿜었습니다.
+몸집도 매우 커서 머리는 하늘의 별에 닿았고 등은 어떤 산보다도 높았으며
+두 팔을 벌리면 동쪽 끝에서 서쪽 끝까지 닿았습니다."/>
+
+</LinearLayout>

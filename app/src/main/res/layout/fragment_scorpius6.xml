@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="밤하늘을 자세히 들여다보면 지금도 전갈이 오리온을 죽이기 위해 쫓고 있는 것처럼 보입니다.
+그러나 전갈은 오리온을 결코 죽이지 못합니다.
+전갈자리가 동쪽하늘에 모습을 나타낼 무렵이면 오리온자리는 하늘에서 보이지 않게 되고,
+전갈자리가 서쪽으로 지는 늦가을이 오기 전에는 오리온자리가 동쪽에서 올라오지 않기 때문입니다."/>
+
+
+</LinearLayout>

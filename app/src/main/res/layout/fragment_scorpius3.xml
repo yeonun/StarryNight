@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그래서 아폴론은 오리온이 다니는 길에 커다란 전갈을 보내어 습격하게 했습니다.
+그러나 이 큰 전갈도 오리온을 죽이는 데는 실패했습니다.
+곰곰이 생각하던 아폴론은 사냥의 여신인 누이동생 아르테미스를 이용하여 결국 오리온을 죽이고 맙니다.
+그러나 오리온을 좋아한 아르테미스는 나중에야 오빠 아폴론이 계략에 넘어가 오리온을 죽였다는 사실을 알고 매우 슬퍼했습니다."/>
+
+</LinearLayout>

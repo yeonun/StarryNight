@@ -71,6 +71,8 @@ public class myConstellationActivity extends Activity {
                         startActivity(Intent);
                     } else if ((month == 2 && 19 <= date && date <= 29) || (month == 3 && date <= 20)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 물고기자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), piecesActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 3 && 21 <= date && date <= 31) || (month == 4 && date <= 19)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 양자리", Toast.LENGTH_SHORT).show();
                         Intent Intent = new Intent(getApplicationContext(), ariesActivity.class);
@@ -85,6 +87,8 @@ public class myConstellationActivity extends Activity {
                         startActivity(Intent);
                     } else if ((month == 6 && 22 <= date && date <= 30) || (month == 7 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 게자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), cancerActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 7 && 23 <= date && date <= 31) || (month == 8 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 사자자리", Toast.LENGTH_SHORT).show();
                         Intent Intent = new Intent(getApplicationContext(), leoActivity.class);
@@ -99,6 +103,8 @@ public class myConstellationActivity extends Activity {
                         startActivity(Intent);
                     } else if ((month == 10 && 23 <= date && date <= 31) || (month == 11 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 전갈자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), scorpiusActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 11 && 23 <= date && date <= 30) || (month == 12 && date <= 21)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 궁수자리", Toast.LENGTH_SHORT).show();
                         Intent Intent = new Intent(getApplicationContext(), sagittariusActivity.class);

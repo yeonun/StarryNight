@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="제우스의 알크메네라는 여인의 아들로 태어난 헤라클레스는 강하고 용감한 영웅이었어요.
+그런데 제우스의 아내였던 여신 헤라는 제우스와 다른 여인의 사이에서 태어난 모든 자녀들을 미워했답니다.
+헤라클레스가 아직 젖먹이 아기였을 때의 일입니다.
+헤라는 헤라클레스를 죽이기 위해 그의 방에 뱀 두 마리를 집어 넣었습니다."/>
+
+</LinearLayout>

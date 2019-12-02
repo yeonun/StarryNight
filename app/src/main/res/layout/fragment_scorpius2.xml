@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="전갈자리는 사냥꾼 오리온을 죽이기 위해 태양의 신 아폴론이 풀어 놓은 거대한 전갈이라고 합니다.
+오리온은 자신의 힘을 과시하며 '이 세상에 나만큼 강한 것은 없다.  어떤 동물이라도 이 몽둥이를 맞으면 살아 남지 못한다'고 자랑하며 다녔습니다.
+이 말을 들은 올림포스의 신들은 참을 수 가 없었습니다."/>
+
+</LinearLayout>
