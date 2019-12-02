@@ -141,13 +141,13 @@ public class capricornActivity extends AppCompatActivity {
                 case 5:
                     return Capricorn6Fragment.newInstance(5, "Page # 6");
                 case 6:
-                    return Capricorn6Fragment.newInstance(6, "Page # 7");
+                    return Capricorn7Fragment.newInstance(6, "Page # 7");
                 case 7:
-                    return Capricorn6Fragment.newInstance(7, "Page # 8");
+                    return Capricorn8Fragment.newInstance(7, "Page # 8");
                 case 8:
-                    return Capricorn6Fragment.newInstance(8, "Page # 9");
+                    return Capricorn9Fragment.newInstance(8, "Page # 9");
                 case 9:
-                    return Capricorn6Fragment.newInstance(9, "Page # 10");
+                    return Capricorn10Fragment.newInstance(9, "Page # 10");
                 default:
                     return null;
             }
