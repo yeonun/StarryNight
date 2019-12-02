@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="당황한 헤라클레스는 무기를 버리고 사자의 등에 올라탔습니다.
+그리고 사자와 뒤엉켜 격투를 벌인 끝에 두 손으로 사자의 목을 힘껏 졸랐어요.
+이윽고 사자는 헤라클레스의 힘을 견디지 못하고 죽고 말았습니다."/>
+
+
+</LinearLayout>

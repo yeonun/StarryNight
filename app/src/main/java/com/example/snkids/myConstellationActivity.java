@@ -81,6 +81,8 @@ public class myConstellationActivity extends Activity {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 게자리", Toast.LENGTH_SHORT).show();
                     } else if ((month == 7 && 23 <= date && date <= 31) || (month == 8 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 사자자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), leoActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 8 && 23 <= date && date <= 31) || (month == 9 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 처녀자리", Toast.LENGTH_SHORT).show();
                     } else if ((month == 9 && 23 <= date && date <= 30) || (month == 10 && date <= 22)) {

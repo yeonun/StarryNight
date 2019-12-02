@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="어느 날, 판이 다른 신들과 어울려 파티를 즐기고 있었을 때였어요.
+판을 오늘도 자신이 아끼는 풀피리를 꺼내 아름다운 연주를 시작했습니다.
+그 때 갑자기 무서운 거인족들이 나타나 신들을 공격했습니다.
+신들을 시샘하고 있던 거인족들은 신들을 해칠 기회를 호시탐탐 노리고 있었던 겁니다."/>
+
+
+</LinearLayout>

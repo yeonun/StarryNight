@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="'소문을 들어 알고 있겠으나, 지금 이나라는 사자 한 마리 때문에 쑥대밭이 되었다.
+숲의 동물들은 멸종 위기에 처했고, 사람들은 공포에 빠져 잠을 못 이룰 정도다.
+만약 네가 그 포악한 사자를 처치해 준다면 세상 어디에서도 얻을 수 없은 귀한 선물을 내려 주겠노라.'"/>
+
+
+</LinearLayout>

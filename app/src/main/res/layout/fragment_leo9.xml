@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="헤라클레스는 처음 약속대로 왕에게 큰 선물을 받았어요.
+왕은 어떤 무기로도 뚫을 수 없는 사자 가죽을 승리의 대가로 선물했던 겁니다.
+또한 제우스는 영웅 헤라클레스의 승리를 모든 사람들에게 알리기 위해 사자를 하늘의 별자리로 올려놓았습니다."/>
+
+
+</LinearLayout>

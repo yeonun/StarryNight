@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="겁에 질린 사람들은 밤만 되면 집 안에서 떨어야 했지요.
+사람들은 이 포악한 사자를 해치우기 위해 갖가지 방법을 떠올렸지만,
+워낙 몸집이 크고 성질이 포악해서 사람들의 힘으로는 어쩔 수가 없었습니다.
+왕은 마침내 큰 상금을 걸고 포악한 사자와 싸워 물리칠 무사를 수소문하기 시작했습니다."/>
+
+</LinearLayout>

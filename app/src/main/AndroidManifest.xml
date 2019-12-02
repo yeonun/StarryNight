@@ -28,6 +28,7 @@
         <activity android:name=".sagittariusActivity"/>
         <activity android:name=".capricornActivity"/>
         <activity android:name=".aquariusActivity"/>
+        <activity android:name=".leoActivity"/>
     </application>
 
 </manifest>

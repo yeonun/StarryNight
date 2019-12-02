@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="왕의 부탁을 받은 헤라클레스는 활과 화살을 가지고 씩씩하게 사자가 살고 있는 숲으로 들어갔습니다.
+그리고 사자가 다니는 길목을 지키고 있다가 사자가  나타나자 재빨리 화살 하나를 쏘았습니다.
+그러나 헤라클레스가 쏜 화살은 사자 옆구리를 맞고 튕겨져 나오고 말았습니다."/>
+
+
+</LinearLayout>

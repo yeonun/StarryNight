@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="이번에는 창과 방망이로 공격했지만 어떤 무기로도 사자를 무찌를 수가 없었습니다.
+사자의 가죽은 세상 무엇으로도 뚫을 수 없는 신기한 힘을 갖고 있었어요.
+오로지 사자 자신의 발톱만이 그것을 뚫을 수 있었습니다."/>
+
+
+</LinearLayout>
