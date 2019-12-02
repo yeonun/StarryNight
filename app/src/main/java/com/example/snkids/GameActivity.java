@@ -3,6 +3,8 @@ package com.example.snkids;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -18,6 +20,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.Random;
+
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -45,16 +49,21 @@ public class GameActivity extends Activity {
     Button totalCorrectTextView;
     ImageView correctImgView;
     ImageView IncorrectImgView;
-
+    int back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+        final SoundPool sp = new SoundPool(1,
+                AudioManager.STREAM_MUSIC,
+                0);
+        back = sp.load(this, R.raw.back, 1);
 
         ImageButton btn_back = findViewById(R.id.btn_back);
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sp.play(back, 1, 1, 0, 0, 1);
                 finish();
             }
         });
@@ -81,7 +90,8 @@ public class GameActivity extends Activity {
 
             JSONObject jo = new JSONObject(str);
             JSONArray problemsJA = jo.getJSONArray("problems");
-            for (int i = 0; i < problemsJA.length(); i++) {
+
+            for (int i = 0; i < 10; i++) {
                 JSONObject problemJO = problemsJA.getJSONObject(i);
 
                 HashMap problem = new HashMap();
@@ -132,6 +142,7 @@ public class GameActivity extends Activity {
             totalCorrectTextView.setText(Integer.toString(totalCorrect)+"점");
             correctImgView.setVisibility(View.VISIBLE);
             IncorrectImgView.setVisibility(View.INVISIBLE);
+
         }
         else {
             correctImgView.setVisibility(View.INVISIBLE);

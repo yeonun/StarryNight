@@ -17,12 +17,12 @@
       "example4": "678,995km"
     },
     {
-      "question": "3 + 3 = ?",
-      "answer": "6",
-      "example1": "6",
-      "example2": "1",
-      "example3": "5",
-      "example4": "4"
+      "question": "지구 위에는 실제로 위선 경선이 그려져있다.",
+      "answer": "웃기지 마라",
+      "example1": "웃기지 마라",
+      "example2": "위선은 모르겠는 경선은 있다",
+      "example3": "경선이랑 위선 둘다 있다",
+      "example4": "위선만 있다"
     },
     {
       "question": "0 + 3 = ?",

@@ -11,9 +11,9 @@
     {
       "question": "2015년 명왕성이 행성에서 제외되었다. 현재 태양계의 행성은 모두 몇 개 일까?",
       "answer": "8개",
-      "example1": "2개",
+      "example1": "5개",
       "example2": "8개",
-      "example3": "100억개",
+      "example3": "10개",
       "example4": "셀수 없음"
     },
     {
@@ -49,36 +49,36 @@
       "example4": "수성"
     },
     {
-      "question": "4 + 4 = ?",
-      "answer": "8",
-      "example1": "7",
-      "example2": "1",
-      "example3": "8",
-      "example4": "3"
+      "question": "태양의 표면 온도는 얼마일까요?",
+      "answer": "6000도",
+      "example1": "1000도",
+      "example2": "600도",
+      "example3": "6000도",
+      "example4": "100000도"
     },
     {
-      "question": "2 + 5 = ?",
-      "answer": "7",
-      "example1": "7",
-      "example2": "1",
-      "example3": "5",
-      "example4": "4"
+      "question": "표면이 아주 두꺼운 이산화탄소 대기로 덮여져있어 온실효과가 발생해 기온이 매우 높은 행성은 어디 일까요?",
+      "answer": "금성",
+      "example1": "금성",
+      "example2": "화성",
+      "example3": "목성",
+      "example4": "토성"
     },
     {
-      "question": "1 + 4 = ?",
-      "answer": "5",
-      "example1": "4",
-      "example2": "5",
-      "example3": "0",
-      "example4": "6"
+      "question": "달과 지구 공전 주기는?",
+      "answer": "29일",
+      "example1": "25일",
+      "example2": "29일",
+      "example3": "33일",
+      "example4": "37일"
     },
     {
-      "question": "3 + 1 = ?",
-      "answer": "4",
-      "example1": "8",
-      "example2": "3",
-      "example3": "4",
-      "example4": "0"
+      "question": "화성이 왜 다음 인류 진출지로 각광 받는 걸까요?",
+      "answer": "물의 흔적",
+      "example1": "정열적인 레드",
+      "example2": "충분한 산소",
+      "example3": "물의 흔적",
+      "example4": "가까워서"
     }
   ]
 }

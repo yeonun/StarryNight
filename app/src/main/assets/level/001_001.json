@@ -1,7 +1,7 @@
 {
   "problems": [
     {
-      "question": "헤라클레스가 히드라와 싸울 때 헤라여신이 (    )를 보내서 만들어진 별자리는 무엇일까요?",
+      "question": "헤라클레스가 히드라와 싸울 때 헤라여신이 (이것)을 보내서 (이것)별자리가 만들어졌습니다. (이것)은 무엇일까요?",
       "answer": "게자리",
       "example1": "물병자리",
       "example2": "게자리",
@@ -9,76 +9,108 @@
       "example4": "물고기자리"
     },
     {
-      "question": "3 + 2 = ?",
-      "answer": "5",
-      "example1": "4",
-      "example2": "6",
-      "example3": "5",
-      "example4": "2"
+      "question": "물고기자리 이야기에서 물고기로 변해 아들과 발을 끈으로 묶고 도망친 신의 이름은 무엇일까? ",
+      "answer": "아프로디테",
+      "example1": "디오니소스",
+      "example2": "아레스",
+      "example3": "아프로디테",
+      "example4": "헤라"
     },
     {
-      "question": "3 + 3 = ?",
-      "answer": "6",
-      "example1": "6",
-      "example2": "1",
-      "example3": "5",
-      "example4": "4"
+      "question": "티폰은 굉장히 큰 괴물입니다! 티폰의 머리의 숫자는 몇개일까요?",
+      "answer": "100",
+      "example1": "3",
+      "example2": "10",
+      "example3": "50",
+      "example4": "100"
     },
     {
-      "question": "0 + 3 = ?",
-      "answer": "3",
-      "example1": "1",
-      "example2": "2",
-      "example3": "4",
-      "example4": "3"
+      "question": "티탄족을 정복한 제우스가 왕이 되어 신의 세계를 다스리자 티탄족이었던 대지의 여신 (    )는 제우스에게 복수를 하기 위해 티폰을 낳았습니다. (   )는 누구일까요?",
+      "answer": "가이아",
+      "example1": "아프로디테",
+      "example2": "디오니소스",
+      "example3": "가이아",
+      "example4": "데메테르"
     },
     {
-      "question": "4 + 2 = ?",
-      "answer": "6",
-      "example1": "6",
-      "example2": "4",
-      "example3": "2",
-      "example4": "5"
+      "question": "자신의 힘을 과시하며 자신이 강하다고 우기고다녔던 오리온에게 아폴론이 풀어놓은 것은 무엇일까요?",
+      "answer": "전갈",
+      "example1": "전갈",
+      "example2": "게",
+      "example3": "황소",
+      "example4": "물병"
     },
     {
-      "question": "5 + 4 = ?",
-      "answer": "9",
-      "example1": "8",
-      "example2": "6",
-      "example3": "7",
-      "example4": "9"
+      "question": "이노 왕비가 네펠레의 아이들을 괴롭힐때 (   )씨앗을 모조리 불에 태웠습니다. (     )씨앗은 어떤 것 일 까요?",
+      "answer": "보리",
+      "example1": "보리",
+      "example2": "쌀",
+      "example3": "콩",
+      "example4": "수수"
     },
     {
-      "question": "4 + 4 = ?",
-      "answer": "8",
-      "example1": "7",
-      "example2": "1",
-      "example3": "8",
-      "example4": "3"
+      "question": "네펠레 왕비의 아이들은 제우스의 도움으로 황금 (   )을 타고 코르키스 섬에 도착해서 행복하게 살았습니다. 이 별자리의 기원이 되는  (    ) 무엇일까요?",
+      "answer": "양",
+      "example1": "양",
+      "example2": "사자",
+      "example3": "유니콘",
+      "example4": "황소"
     },
     {
-      "question": "2 + 5 = ?",
-      "answer": "7",
-      "example1": "7",
-      "example2": "1",
-      "example3": "5",
-      "example4": "4"
+      "question": "에우로페가 바닷가에서 시녀들과 놀면서 만난 소의 정체는 무엇 인가요?",
+      "answer": "제우스",
+      "example1": "디오니소스",
+      "example2": "제우스",
+      "example3": "아폴론",
+      "example4": "포세이돈"
     },
     {
-      "question": "1 + 4 = ?",
-      "answer": "5",
-      "example1": "4",
-      "example2": "5",
-      "example3": "0",
-      "example4": "6"
+      "question": "제우스가 에우로페 공주를 꼬시기 위해서 변신한 동물은 무엇일까요?",
+      "answer": "흰 소",
+      "example1": "은빛 말",
+      "example2": "황금 소",
+      "example3": "검은 소",
+      "example4": "흰 소"
     },
     {
-      "question": "3 + 1 = ?",
-      "answer": "4",
-      "example1": "8",
-      "example2": "3",
-      "example3": "4",
-      "example4": "0"
+      "question": "에우로페의 이름을 기념해서 오늘날 이름 지어 진 대륙의 이름은 어떤 것일까요?",
+      "answer": "유럽",
+      "example1": "아시아",
+      "example2": "아메리카",
+      "example3": "유럽",
+      "example4": "호주"
+    },
+    {
+      "question": "제우스가 하얀 소로 변신해 에우로페를 데리고 간 섬은 제우스가 어린시절을 보냈던 곳입니다. 에우로페 공주를 자신의 아내로 맞기 위해 아름답게 꾸며둔 섬의 이름은?",
+      "answer": "크레타 섬",
+      "example1": "크레타 섬",
+      "example2": "제주도",
+      "example3": "코르키스 섬",
+      "example4": "시작 섬"
+    },
+    {
+      "question": "카스톨과 프록스는 형제입니다. 형 카스톨은 검술에 뛰어났고, 동행 플록스는 (    )에 재주가 있었습니다. 무엇일까요?",
+      "answer": "말타기",
+      "example1": "펜싱",
+      "example2": "말타기",
+      "example3": "볼링",
+      "example4": "골프"
+    },
+    {
+      "question": "헤라가 헤라클레스를 죽이기 위해 한 짓이 아닌 것은?",
+      "answer": "죽도록 때렸다.",
+      "example1": "죽도록 때렸다.",
+      "example2": "방에 뱀 두마리를 집어넣었다.",
+      "example3": "노예로 팔아버렸다.",
+      "example4": "괴물 게를 보냈다."
+    },
+    {
+      "question": "바다뱀 vs 헤라클레스 vs 괴물 게 싸움의 결과로 옳은 것은?",
+      "answer": "헤라클레스 완승",
+      "example1": "둘다한테 졌다",
+      "example2": "바다뱀은 이겼지만 괴물게에게 짐",
+      "example3": "헤라클레스 완승",
+      "example4": "괴물게는 이겼지만 바다뱀에게 짐"
     }
   ]
 }
