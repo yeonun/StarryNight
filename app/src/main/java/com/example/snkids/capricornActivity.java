@@ -11,7 +11,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import me.relex.circleindicator.CircleIndicator;
 
-public class sagittariusActivity extends AppCompatActivity {
+public class capricornActivity extends AppCompatActivity {
     FragmentPagerAdapter adapterViewPager;
 
 
@@ -19,7 +19,7 @@ public class sagittariusActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_sagittarius);
+        setContentView(R.layout.activity_capricorn);
 
         ViewPager vpPager = (ViewPager) findViewById(R.id.vpPager);
         adapterViewPager = new MyPagerAdapter(getSupportFragmentManager());
@@ -47,17 +47,17 @@ public class sagittariusActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return Sagittarius1Fragment.newInstance(0, "Page # 1");
+                    return Capricorn1Fragment.newInstance(0, "Page # 1");
                 case 1:
-                    return Sagittarius2Fragment.newInstance(1, "Page # 2");
+                    return Capricorn2Fragment.newInstance(1, "Page # 2");
                 case 2:
-                    return Sagittarius3Fragment.newInstance(2, "Page # 3");
+                    return Capricorn3Fragment.newInstance(2, "Page # 3");
                 case 3:
-                    return Sagittarius4Fragment.newInstance(3, "Page # 4");
+                    return Capricorn4Fragment.newInstance(3, "Page # 4");
                 case 4:
-                    return Sagittarius5Fragment.newInstance(4, "Page # 5");
+                    return Capricorn5Fragment.newInstance(4, "Page # 5");
                 case 5:
-                    return Sagittarius6Fragment.newInstance(5, "Page # 6");
+                    return Capricorn6Fragment.newInstance(5, "Page # 6");
 
                 default:
                     return null;

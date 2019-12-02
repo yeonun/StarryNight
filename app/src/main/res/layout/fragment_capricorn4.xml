@@ -15,7 +15,9 @@
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:gravity="center"
-        android:text=""/>
+        android:text="어느날 헤라클레스가 스승의 마을에 찾아왔을 때의 일이에요. 술에 취한 헤라클레스와
+마을 사람들 사이에서 싸움이 벌어졌습니다. 키론은 제자를 말렸지만 워낙 힘이 센 헤라클레스를 도저히 막을 수가
+없었어요. 싸움을 말리기 위해 철쩍철쩍 뛰던 키론은 그만 실수로 히드라의 독을 바른 헤라클레스의 화살을 밟고 말았어요."/>
 
 
 </LinearLayout>

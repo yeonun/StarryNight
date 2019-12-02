@@ -37,6 +37,8 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "염소자리", Toast.LENGTH_SHORT).show();
+                Intent Intent = new Intent(getApplicationContext(), capricornActivity.class);
+                startActivity(Intent);
             }
         });
 

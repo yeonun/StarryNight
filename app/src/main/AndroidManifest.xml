@@ -27,6 +27,7 @@
         <activity android:name=".QuizmainActivity" />
         <activity android:name=".sagittariusActivity"
             android:theme="@style/AppTheme"/>
+        <activity android:name=".capricornActivity"/>
     </application>
 
 </manifest>

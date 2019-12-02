@@ -2,6 +2,9 @@ package com.example.snkids;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -13,19 +16,32 @@ public class myConstellationActivity extends Activity {
     int month, date;
     String string_month, string_date;
     EditText month_data, date_data;
+    private static MediaPlayer mp;
+    int back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_myconstellation);
 
+        final SoundPool sp = new SoundPool(1,
+                AudioManager.STREAM_MUSIC,
+                0);
+        back = sp.load(this, R.raw.back, 1);
+
+        mp = MediaPlayer.create(this, R.raw.star);
+        mp.start();
         ImageButton btn_back = findViewById(R.id.btn_back);
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sp.play(back, 1, 1, 0, 0, 1);
                 finish();
+                mp.stop();
             }
         });
+
+
 
         ImageButton btn_next = findViewById(R.id.btn_next);
         btn_next.setOnClickListener(new View.OnClickListener() {
@@ -81,5 +97,21 @@ public class myConstellationActivity extends Activity {
             }
         });
 
+    }
+    public void onBackPressed(){
+        mp.stop();
+        super.onBackPressed();
+    }
+    public void onUserLeaveHint(){
+        mp.pause();
+        super.onUserLeaveHint();
+    }
+    public void onResume(){
+        mp.start();
+        super.onResume();
+    }
+    public void onDestroy(){
+        mp.stop();
+        super.onDestroy();
     }
 }
