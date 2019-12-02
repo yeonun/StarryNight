@@ -1,6 +1,7 @@
 package com.example.snkids;
 
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Window;
 
@@ -14,6 +15,11 @@ import me.relex.circleindicator.CircleIndicator;
 public class sagittariusActivity extends AppCompatActivity {
     FragmentPagerAdapter adapterViewPager;
 
+    private static MediaPlayer mp2;
+    private static MediaPlayer mp3;
+    private static MediaPlayer mp4;
+    private static MediaPlayer mp5;
+    private static MediaPlayer mp6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +33,56 @@ public class sagittariusActivity extends AppCompatActivity {
 
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(vpPager);
+
+        mp2 = MediaPlayer.create(this, R.raw.sagittarius2);
+        mp3 = MediaPlayer.create(this, R.raw.sagittarius3);
+        mp4 = MediaPlayer.create(this, R.raw.sagittarius4);
+        mp5 = MediaPlayer.create(this, R.raw.sagittarius5);
+        mp6 = MediaPlayer.create(this, R.raw.sagittarius6);
+
+
+
+        vpPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                switch (position) {
+                    case 0:
+                        break;
+                    case 1:
+                       mp2.start();
+                        break;
+                    case 2:
+                        mp2.stop();
+                        mp3.start();
+                        break;
+                    case 3:
+                        mp3.stop();
+                        mp4.start();
+                        break;
+
+                    case 4:
+                        mp4.stop();
+                        mp5.start();
+                        break;
+
+                    case 5:
+                        mp5.stop();
+                        mp6.start();
+                        break;
+
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
     }
 
     public static class MyPagerAdapter extends FragmentPagerAdapter {
@@ -70,5 +126,33 @@ public class sagittariusActivity extends AppCompatActivity {
             return "Page " + position;
         }
 
+    }
+
+    public void onBackPressed(){
+        mp2.stop();
+        mp3.stop();
+        mp4.stop();
+        mp5.stop();
+        mp6.stop();
+
+        super.onBackPressed();
+    }
+    public void onUserLeaveHint(){
+        mp2.pause();
+        mp3.pause();
+        mp4.pause();
+        mp5.pause();
+        mp6.pause();
+
+        super.onUserLeaveHint();
+    }
+
+    public void onDestroy(){
+        mp2.stop();
+        mp3.stop();
+        mp4.stop();
+        mp5.stop();
+        mp6.stop();
+        super.onDestroy();
     }
 }

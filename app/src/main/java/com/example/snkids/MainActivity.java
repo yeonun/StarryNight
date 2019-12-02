@@ -35,6 +35,7 @@ public class MainActivity extends Activity {
         btn_ConstellationStory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sp.play(click, 1, 1, 0, 0, 1);
                 Intent ConstellationStoryIntent = new Intent(getApplicationContext(), ConstellationStoryActivity.class);
                 startActivity(ConstellationStoryIntent);
             }
@@ -44,6 +45,7 @@ public class MainActivity extends Activity {
         btn_Quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sp.play(click, 1, 1, 0, 0, 1);
                 Intent QuizIntent = new Intent(getApplicationContext(), QuizmainActivity.class);
                 startActivity(QuizIntent);
             }
@@ -53,6 +55,7 @@ public class MainActivity extends Activity {
         btn_GalaxiesStory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sp.play(click, 1, 1, 0, 0, 1);
                 Intent GalaxiesStoryIntent = new Intent(getApplicationContext(), GalaxiesStoryActivity.class);
                 startActivity(GalaxiesStoryIntent);
             }

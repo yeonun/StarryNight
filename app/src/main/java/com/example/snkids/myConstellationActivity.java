@@ -17,6 +17,7 @@ public class myConstellationActivity extends Activity {
     String string_month, string_date;
     EditText month_data, date_data;
     private static MediaPlayer mp;
+    private static MediaPlayer mp1;
     int back;
 
     @Override
@@ -30,7 +31,9 @@ public class myConstellationActivity extends Activity {
         back = sp.load(this, R.raw.back, 1);
 
         mp = MediaPlayer.create(this, R.raw.star);
+        mp1 = MediaPlayer.create(this, R.raw.myconstellation);
         mp.start();
+        mp1.start();
         ImageButton btn_back = findViewById(R.id.btn_back);
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +41,7 @@ public class myConstellationActivity extends Activity {
                 sp.play(back, 1, 1, 0, 0, 1);
                 finish();
                 mp.stop();
+                mp1.stop();
             }
         });
 
@@ -87,7 +91,8 @@ public class myConstellationActivity extends Activity {
                         startActivity(Intent);
                     } else if ((month == 12 && 22 <= date && date <= 31) || (month == 1 && date <= 19)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 염소자리", Toast.LENGTH_SHORT).show();
-
+                        Intent Intent = new Intent(getApplicationContext(), capricornActivity.class);
+                        startActivity(Intent);
                     }
                     else {
                         Toast.makeText(myConstellationActivity.this, "다시 입력 해 주세요", Toast.LENGTH_SHORT).show();
@@ -100,18 +105,22 @@ public class myConstellationActivity extends Activity {
     }
     public void onBackPressed(){
         mp.stop();
+        mp1.stop();
         super.onBackPressed();
     }
     public void onUserLeaveHint(){
         mp.pause();
+        mp1.pause();
         super.onUserLeaveHint();
     }
     public void onResume(){
         mp.start();
+        mp1.start();
         super.onResume();
     }
     public void onDestroy(){
         mp.stop();
+        mp1.stop();
         super.onDestroy();
     }
 }

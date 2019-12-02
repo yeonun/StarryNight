@@ -1,8 +1,5 @@
 package com.example.snkids;
 
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-import android.media.SoundPool;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,11 +7,13 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class Sagittarius1Fragment extends Fragment {
+public class Capricorn7Fragment extends Fragment {
+    private String title;
+    private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static Sagittarius1Fragment newInstance(int page, String title) {
-        Sagittarius1Fragment fragment = new Sagittarius1Fragment();
+    public static Capricorn7Fragment newInstance(int page, String title) {
+        Capricorn7Fragment fragment = new Capricorn7Fragment();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
         args.putString("someTitle", title);
@@ -26,14 +25,16 @@ public class Sagittarius1Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        page = getArguments().getInt("someInt", 0);
+        title = getArguments().getString("someTitle");
+
     }
 
     // Inflate the view for the fragment based on layout XML
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_sagittarius1, container, false);
+        View view = inflater.inflate(R.layout.fragment_capricorn7, container, false);
         return view;
     }
-
 }

@@ -2,22 +2,34 @@ package com.example.snkids;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class ConstellationStoryActivity extends Activity {
+
+    int back;
+    int click;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_constellationstory);
-
+        final SoundPool sp = new SoundPool(1,
+                AudioManager.STREAM_MUSIC,
+                0);
+        back = sp.load(this, R.raw.back, 1);
+        click = sp.load(this, R.raw.select, 1);
 
         ImageButton btn_back = findViewById(R.id.btn_back);
+
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sp.play(back, 1, 1, 0, 0, 1);
                 finish();
             }
         });
@@ -27,6 +39,7 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "궁수자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
                 Intent Intent = new Intent(getApplicationContext(), sagittariusActivity.class);
                 startActivity(Intent);
             }
@@ -37,6 +50,7 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "염소자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
                 Intent Intent = new Intent(getApplicationContext(), capricornActivity.class);
                 startActivity(Intent);
             }

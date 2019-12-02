@@ -1,5 +1,6 @@
 package com.example.snkids;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +10,8 @@ import android.widget.EditText;
 import androidx.fragment.app.Fragment;
 
 public class Sagittarius2Fragment extends Fragment {
-    private String title;
-    private int page;
+
+    private static MediaPlayer mp;
 
     // newInstance constructor for creating fragment with arguments
     public static Sagittarius2Fragment newInstance(int page, String title) {
@@ -26,8 +27,7 @@ public class Sagittarius2Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        page = getArguments().getInt("someInt", 0);
-        title = getArguments().getString("someTitle");
+
 
     }
 
@@ -38,4 +38,5 @@ public class Sagittarius2Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_sagittarius2, container, false);
         return view;
     }
+
 }

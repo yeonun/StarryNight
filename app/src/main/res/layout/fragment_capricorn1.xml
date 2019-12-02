@@ -15,7 +15,7 @@
         android:textSize="50sp"
         android:textColor="#FFFFFF"
         android:gravity="right|center_vertical"
-        android:text="궁수자리"
+        android:text="염소자리"
         android:textStyle="bold"
         android:layout_margin="10dp"/>
 
@@ -25,7 +25,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="right|center_vertical"
-        android:text="11월 23일 ~ 12월 21일"
+        android:text="12월 22일 ~ 1월 19일"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:layout_margin="5dp"/>
@@ -36,7 +36,7 @@
         android:layout_height="0dp"
         android:gravity="center_horizontal"
         android:layout_weight="6"
-        android:src="@drawable/sagittariusimg" />
+        android:src="@drawable/capricornimg" />
 
     <TextView
         android:id="@+id/textViw"
@@ -47,5 +47,5 @@
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:gravity="center"
-        android:text="반인반마의 키론 이야기"/>
+        android:text="주문을 잘못 외운 판"/>
 </LinearLayout>
