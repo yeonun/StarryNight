@@ -83,23 +83,23 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/img_uranus"
+        android:id="@+id/img_neptune"
         android:layout_width="56dp"
         android:layout_height="57dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginLeft="264dp"
-        android:layout_marginBottom="540dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginBottom="628dp"
         android:src="@drawable/uranus"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/img_neptune"
+        android:id="@+id/img_uranus"
         android:layout_width="62dp"
         android:layout_height="56dp"
-        android:layout_marginStart="320dp"
-        android:layout_marginLeft="320dp"
-        android:layout_marginBottom="604dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:layout_marginBottom="572dp"
         android:src="@drawable/neptune"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
