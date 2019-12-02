@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <TextView
         android:id="@+id/textViw"
         android:layout_width="match_parent"
@@ -15,11 +14,10 @@
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:gravity="center"
-        android:text="이 황금 마차에는 검은 옷을 입은 지옥의 왕 하데스가 타고 있었습니다.
-하데스는 숲 속에서 꽃향기에 취해 있는 아름다운 페르세포네를 보자 그만 사랑에 빠지고 말았습니다.
-그리고 페르세포네를 자신의 아내로 삼기 위해 지하 세계로 끌고 갔어요.
-대지의 여신 데메테르는 사라진 페르세포네를 찾아다녔습니다.
- 그러나 딸의 모습은 어디에서도 찾을 수가 없었어요. "/>
-
+        android:text="그러던 어느 날, 왕은 이노라는 여인을 둘째 부인으로 맞아들이게 되었어요.
+이노는 얼굴은 아름다웠지만 매우 꾀가 많고 사악한 여자였습니다.
+얼마 후 이노의 모함으로 네펠레 왕비는 궁궐에서 쫓겨나고 말았습니다.
+네펠레를 쫓아 낸 이노 왕비는 어린 오누이를 구박했어요.
+얼마나 잔인하게 구박하였는지 신들조차도 불쌍하게 여길 정도였습니다."/>
 
 </LinearLayout>

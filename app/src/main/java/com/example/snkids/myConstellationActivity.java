@@ -73,10 +73,16 @@ public class myConstellationActivity extends Activity {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 물고기자리", Toast.LENGTH_SHORT).show();
                     } else if ((month == 3 && 21 <= date && date <= 31) || (month == 4 && date <= 19)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 양자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), ariesActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 4 && 20 <= date && date <= 30) || (month == 5 && date <= 20)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 황소자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), taurusActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 5 && 21 <= date && date <= 31) || (month == 6 && date <= 21)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 쌍둥이자리", Toast.LENGTH_SHORT).show();
+                        Intent Intent = new Intent(getApplicationContext(), geminiActivity.class);
+                        startActivity(Intent);
                     } else if ((month == 6 && 22 <= date && date <= 30) || (month == 7 && date <= 22)) {
                         Toast.makeText(myConstellationActivity.this, string_month + "월 " + string_date + "일 은 게자리", Toast.LENGTH_SHORT).show();
                     } else if ((month == 7 && 23 <= date && date <= 31) || (month == 8 && date <= 22)) {

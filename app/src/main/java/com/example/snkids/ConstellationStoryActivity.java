@@ -81,6 +81,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "양자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), ariesActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -89,6 +92,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "황소자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), taurusActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -97,6 +103,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "쌍둥이자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), geminiActivity.class);
+                startActivity(Intent);
             }
         });
 

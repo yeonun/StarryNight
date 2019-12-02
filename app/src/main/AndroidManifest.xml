@@ -31,6 +31,9 @@
         <activity android:name=".leoActivity"/>
         <activity android:name=".libraActivity"/>
         <activity android:name=".virgoActivity"/>
+        <activity android:name=".taurusActivity"/>
+        <activity android:name=".ariesActivity"/>
+        <activity android:name=".geminiActivity"/>
     </application>
 
 </manifest>
